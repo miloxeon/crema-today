@@ -5,4 +5,32 @@
   left: 0;
   right: 0;
   height: 100%;
+
+  z-index: 1;
+
+  display: none;
+}
+
+.button {
+  display: inline-block;
+  padding: 8px;
+  background-color: black;
+  color: white;
+}
+
+.button--close-map {
+  position: fixed;
+  top: 8px;
+  left: 8px;
+  z-index: 10;
+
+  display: none;
+}
+
+#toggle-map:checked ~ #map {
+  display: block;
+}
+
+#toggle-map:checked ~ .button--close-map {
+  display: block;
 }
