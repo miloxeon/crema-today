@@ -23,6 +23,6 @@ h1 {
 }
 
 p {
-  font-size: 32px;
+  font-size: calc(16px + 1.5vw);
   line-height: 1;
 }
