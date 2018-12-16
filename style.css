@@ -10,6 +10,13 @@
   font-weight: normal;
 }
 
+@font-face {
+  font-family: "Helvetica";
+  src: url("helvetica-medium-italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+}
+
 html {
   --color-primary: #00df59;
   font-family: "Helvetica", sans-serif;
@@ -37,6 +44,7 @@ h1 .accented::after {
 p {
   font-size: calc(16px + 1.5vw);
   line-height: 1;
+  max-width: 700px;
 }
 
 .button--open-map {
