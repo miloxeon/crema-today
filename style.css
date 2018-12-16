@@ -11,7 +11,8 @@
 }
 
 html {
-  --color-primary: #00C288;
+  --color-primary: #00c288;
+  --responsive-text-size: calc(16px + 1.5vw);
   font-family: "Helvetica", sans-serif;
 }
 
@@ -28,13 +29,13 @@ h1 .accented {
 
 h1 .accented::after {
   content: "´";
-  color: var(--primary-color);
+  color: var(--color-primary);
   position: absolute;
   right: .55ch;
   top: -.35ch;
 }
 
 p {
-  font-size: calc(16px + 1.5vw);
+  font-size: var(--responsive-text-size);
   line-height: 1;
 }

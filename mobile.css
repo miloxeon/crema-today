@@ -1,5 +1,5 @@
 header {
-  margin-top: 1em;
+  margin-top: var(--responsive-text-size);
 }
 
 #map {
@@ -9,9 +9,7 @@ header {
   left: 0;
   right: 0;
   height: 100%;
-
   z-index: 1;
-
   display: none;
 }
 
