@@ -21,6 +21,18 @@ h1 {
   margin-left: -.5vw;
 }
 
+h1 .accented {
+  position: relative;
+}
+
+h1 .accented::after {
+  content: "´";
+  color: #00C288;
+  position: absolute;
+  right: 0.55ch;
+  top: -0.35ch;
+}
+
 p {
   font-size: calc(16px + 1.5vw);
   line-height: 1;

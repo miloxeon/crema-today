@@ -1,3 +1,7 @@
+header {
+  margin-top: 1em;
+}
+
 #map {
   position: fixed;
   top: 0;
