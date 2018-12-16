@@ -19,6 +19,7 @@ header {
   display: inline-block;
   padding: 8px;
   background-color: black;
+  background-color: var(--color-primary);
   color: white;
 }
 

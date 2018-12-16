@@ -11,6 +11,7 @@
 }
 
 html {
+  --color-primary: #00C288;
   font-family: "Helvetica", sans-serif;
 }
 
@@ -27,7 +28,7 @@ h1 .accented {
 
 h1 .accented::after {
   content: "´";
-  color: #00C288;
+  color: var(--primary-color);
   position: absolute;
   right: 0.55ch;
   top: -0.35ch;
