@@ -43,8 +43,8 @@ h1 .accented::after {
 
 p {
   font-size: calc(16px + 1.5vw);
+  max-width: calc(850px + 1.5vw);
   line-height: 1;
-  max-width: 700px;
 }
 
 .button--open-map {
