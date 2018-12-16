@@ -14,13 +14,22 @@ html {
   font-family: "Helvetica", sans-serif;
 }
 
+body {
+  margin: 0;
+}
+
 h1 {
   margin: 0;
   font-size: 13vw;
   letter-spacing: -.55vw;
+  margin-left: -.5vw;
 }
 
 p {
   font-size: calc(16px + 1.5vw);
   line-height: 1;
+}
+
+header {
+  margin: 8px;
 }
