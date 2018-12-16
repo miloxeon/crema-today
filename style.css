@@ -11,7 +11,7 @@
 }
 
 html {
-  --color-primary: #00c288;
+  --color-primary: #00df59;
   font-family: "Helvetica", sans-serif;
 }
 
@@ -41,4 +41,8 @@ p {
 
 .button--open-map {
   display: none;
+}
+
+body {
+  margin-top: 1rem;
 }
