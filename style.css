@@ -39,3 +39,7 @@ p {
   font-size: var(--responsive-text-size);
   line-height: 1;
 }
+
+.button--open-map {
+  display: none;
+}
