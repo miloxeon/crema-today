@@ -20,6 +20,11 @@
 html {
   --color-primary: #00df59;
   font-family: "Helvetica", sans-serif;
+  font-size: calc(16px + 1.5vw);
+}
+
+body {
+  margin-top: 1rem;
 }
 
 h1 {
@@ -29,28 +34,68 @@ h1 {
   margin-left: -.5vw;
 }
 
-h1 .accented {
+h2 {
+  margin: 0;
+  font-size: 1.6rem;
+  letter-spacing: -.3vw;
+  margin-left: -.3vw;
+}
+
+p,
+ul,
+body > footer {
+  line-height: 1.5;
+}
+
+ul {
+  list-style: none;
+  padding-left: 3vw;
+}
+
+li {
   position: relative;
 }
 
-h1 .accented::after {
-  content: "´";
-  color: var(--color-primary);
+li::before {
+  display: inline-block;
+  content: "—————";
+
   position: absolute;
-  right: .55ch;
-  top: -.35ch;
+  left: 0;
+
+  color: var(--color-primary);
+  letter-spacing: -.5vw;
+
+  transform: translateX(-105%);
 }
 
-p {
-  font-size: calc(16px + 1.5vw);
-  max-width: calc(850px + 1.5vw);
-  line-height: 1;
+label,
+a {
+  color: black;
+  text-decoration: underline;
+  -webkit-text-decoration-color: var(--color-primary);
+          text-decoration-color: var(--color-primary);
 }
 
-.button--open-map {
+.open-map {
   display: none;
 }
 
-body {
-  margin-top: 1rem;
+small {
+  font-size: .25rem;
+}
+
+.accented {
+  position: relative;
+}
+
+.accented::after {
+  content: "´";
+
+  position: absolute;
+  right: .04ch;
+  top: -.35ch;
+
+  color: var(--color-primary);
+  line-height: 1.28;
 }
