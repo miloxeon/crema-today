@@ -30,8 +30,8 @@ h1 .accented::after {
   content: "´";
   color: var(--primary-color);
   position: absolute;
-  right: 0.55ch;
-  top: -0.35ch;
+  right: .55ch;
+  top: -.35ch;
 }
 
 p {
