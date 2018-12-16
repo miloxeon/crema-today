@@ -11,7 +11,7 @@
 }
 
 html {
-  --color-primary: #00C288;
+  --color-primary: #00c288;
   font-family: "Helvetica", sans-serif;
 }
 
@@ -28,7 +28,7 @@ h1 .accented {
 
 h1 .accented::after {
   content: "´";
-  color: var(--primary-color);
+  color: var(--color-primary);
   position: absolute;
   right: .55ch;
   top: -.35ch;
@@ -37,4 +37,8 @@ h1 .accented::after {
 p {
   font-size: calc(16px + 1.5vw);
   line-height: 1;
+}
+
+.button--open-map {
+  display: none;
 }
