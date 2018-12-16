@@ -41,6 +41,10 @@ header {
   display: none;
 }
 
+.button--close-map > img {
+  transform: rotate(45deg);
+}
+
 #toggle-map:checked ~ #map {
   display: block;
 }
