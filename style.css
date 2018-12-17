@@ -24,6 +24,7 @@ html {
 }
 
 body {
+  line-height: 1.5;
   margin-top: 1rem;
 }
 
@@ -35,17 +36,16 @@ h1 {
 }
 
 h2 {
-  margin: 0;
+  margin-bottom: 0;
+  margin-left: -.3vw;
   font-size: 1.6rem;
   letter-spacing: -.3vw;
-  margin-left: -.3vw;
 }
 
-p,
-ul,
 body > footer {
-  line-height: 1.5;
+  margin-top: 5rem;
 }
+
 
 ul {
   list-style: none;
