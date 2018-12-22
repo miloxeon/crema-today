@@ -9,33 +9,47 @@
 
     <link rel="stylesheet" href="style.css">
     <link rel="preload" href="mobile.css" as="style">
+    <link rel="preload" href="https://maphub.net/embed/43312" as="script">
   </head>
   <body>
     <header>
       <h1>
-        <span class="accented">
-          Кремa
-        </span>
-        <span>
-          тудей&#8202;—
-        </span>
+        Крем<span class="accented">a</span> тудей&#8202;&#8202;—
       </h1>
       <p>
         это самый честный кофейный рейтинг в мире.
       </p>
       <p>
-        Несмотря на аритмию, я делаю обзоры лучших<br>
-        кофеен в городе, чтобы вы могли наслаждаться<br>
-        лучшим кофе, не вляпавшись в дерьмо.
+        несмотря на аритмию, я пью кофе и делаю обзоры <em>лучших</em>
+        кофеен в городе, чтобы вы могли наслаждаться
+        <em>лучшим</em> кофе, не вляпавшись в дерьмо.
+      </p>
+      <p>
+        если кофейня тут&#8202;—&#8202;она хорошая.
       </p>
     </header>
     <main>
       <input type="checkbox" id="toggle-map" hidden>
-      <label for="toggle-map" class="button button--open-map">Открыть карту</label>
-      <label for="toggle-map" class="button button--close-map"></label>
-      <iframe id="map" width="100%" height="576" src="https://maphub.net/embed/43897" frameborder="0"></iframe>
+      <label for="toggle-map" class="open-map">Открыть карту</label>
+      <label for="toggle-map" class="close-map"></label>
+      <iframe id="map" width="100%" height="576"
+        src="https://maphub.net/embed/43312" frameborder="0"></iframe>
+      <h2>как не попасть сюда</h2>
+      <ul>
+        <li>пытаться предложить мне взятку</li>
+        <li>готовить плохой кофе</li>
+        <li>быть крупным сетевым заведением или франшизой</li>
+      </ul>
+      <h2>хочу попасть сюда</h2>
+      <p>
+        <a href="mailto:hello@miloslav.website">напишите мне</a>.
+      </p>
     </main>
-    <footer></footer>
+    <footer>
+      <a href="https://mrtnsn.me">М<span class="accented">а</span>ртын</a>&#8202;—&#8202;вёрстка<br>
+      <a href="https://miloslav.website">Милосл<span class="accented">а</span>в</a>&#8202;—&#8202;рейтинг<br>
+      &copy;&#8202;крем<span class="accented">а</span> тудей&#8202;<small>(даже не думай)</small>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/gh/hgoebl/mobile-detect.js/mobile-detect.min.js"></script>
     <script src="app.js"></script>
