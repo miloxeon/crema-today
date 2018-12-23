@@ -1,18 +1,18 @@
 @font-face {
   font-family: "Helvetica";
-  src: url("helvetica-bold.woff") format("woff");
+  src: url("fonts/helvetica-bold.woff") format("woff");
   font-weight: bold;
 }
 
 @font-face {
   font-family: "Helvetica";
-  src: url("helvetica-medium.woff") format("woff");
+  src: url("fonts/helvetica-medium.woff") format("woff");
   font-weight: normal;
 }
 
 @font-face {
   font-family: "Helvetica";
-  src: url("helvetica-medium-italic.woff") format("woff");
+  src: url("fonts/helvetica-medium-italic.woff") format("woff");
   font-weight: normal;
   font-style: italic;
 }
