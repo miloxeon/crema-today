@@ -42,10 +42,7 @@
   transform: rotate(45deg);
 }
 
-#toggle-map:checked ~ #map {
-  display: block;
-}
-
+#toggle-map:checked ~ #map,
 #toggle-map:checked ~ .close-map {
   display: block;
 }
